@@ -1,13 +1,20 @@
 package com.example.myapplication.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.myapplication.CreateAccount
+import com.example.myapplication.Empty
+import com.example.myapplication.Login
+import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentHomeBinding
+
 
 class HomeFragment : Fragment() {
 
@@ -32,6 +39,15 @@ class HomeFragment : Fragment() {
         homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
+
+        val buttonClick: Button = root.findViewById<View>(com.example.myapplication.R.id.buttonaa) as Button
+        buttonClick.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(this, CreateAccount::class.java))
+                finish()
+            }
+        }
+
         return root
     }
 
