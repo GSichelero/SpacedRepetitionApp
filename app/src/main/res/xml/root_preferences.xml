@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Select Difficult Level">
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/signature_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Level Of Proficiency">
+
+        <SwitchPreferenceCompat
+            app:key="A1"
+            app:title="A1" />
+        <SwitchPreferenceCompat
+            app:key="A2"
+            app:title="A2" />
+        <SwitchPreferenceCompat
+            app:key="B1"
+            app:title="B1" />
+        <SwitchPreferenceCompat
+            app:key="B2"
+            app:title="B2" />
+        <SwitchPreferenceCompat
+            app:key="C1"
+            app:title="C1" />
+        <SwitchPreferenceCompat
+            app:key="C2"
+            app:title="C2" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
