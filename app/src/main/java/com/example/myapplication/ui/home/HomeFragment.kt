@@ -10,9 +10,6 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.myapplication.CreateAccount
-import com.example.myapplication.Empty
-import com.example.myapplication.Login
-import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentHomeBinding
 
 
@@ -34,11 +31,6 @@ class HomeFragment : Fragment() {
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
-        val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
 
         val buttonClick: Button = root.findViewById<View>(com.example.myapplication.R.id.buttonaa) as Button
         buttonClick.setOnClickListener{
