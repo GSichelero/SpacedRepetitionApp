@@ -9,7 +9,7 @@
     <Switch
         android:id="@+id/switch6"
         android:layout_width="372dp"
-        android:layout_height="73dp"
+        android:layout_height="54dp"
         android:text="C2"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -21,7 +21,7 @@
     <Switch
         android:id="@+id/switch5"
         android:layout_width="372dp"
-        android:layout_height="73dp"
+        android:layout_height="54dp"
         android:text="C1"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -33,7 +33,7 @@
     <Switch
         android:id="@+id/switch4"
         android:layout_width="372dp"
-        android:layout_height="73dp"
+        android:layout_height="54dp"
         android:text="B2"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -45,7 +45,7 @@
     <Switch
         android:id="@+id/switch3"
         android:layout_width="372dp"
-        android:layout_height="73dp"
+        android:layout_height="54dp"
         android:text="B1"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -57,7 +57,7 @@
     <Switch
         android:id="@+id/switch2"
         android:layout_width="372dp"
-        android:layout_height="73dp"
+        android:layout_height="54dp"
         android:text="A2"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -70,18 +70,18 @@
         android:id="@+id/buttonaa"
         android:layout_width="139dp"
         android:layout_height="72dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#C8102E"
         android:text="Apply"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.926"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="#C8102E"
         app:layout_constraintTop_toBottomOf="@+id/switch6" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="372dp"
-        android:layout_height="73dp"
+        android:layout_height="54dp"
         android:layout_marginTop="4dp"
         android:text="A1"
         android:textColor="#FFFFFF"
@@ -95,13 +95,12 @@
         android:id="@+id/textView"
         android:layout_width="371dp"
         android:layout_height="47dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="4dp"
         android:text="Select the levels of proficiency"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
