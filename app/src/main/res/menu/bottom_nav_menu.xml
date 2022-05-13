@@ -14,6 +14,6 @@
     <item
         android:id="@+id/navigation_notifications"
         android:icon="?android:attr/fingerprintAuthDrawable"
-        android:title="Edit Perfil" />
+        android:title="Edit Profile" />
 
 </menu>
