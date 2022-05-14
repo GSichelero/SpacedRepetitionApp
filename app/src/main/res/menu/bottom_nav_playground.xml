@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_question"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Question" />
+
+    <item
+        android:id="@+id/navigation_answer"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Answer" />
+
+    <item
+        android:id="@+id/navigation_score"
+        android:icon="@android:drawable/star_big_off"
+        android:title="Score" />
+
+</menu>

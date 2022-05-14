@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.myapplication.CreateAccount
+import com.example.myapplication.Playground
 import com.example.myapplication.databinding.FragmentHomeBinding
 
 
@@ -35,7 +36,7 @@ class HomeFragment : Fragment() {
         val buttonClick: Button = root.findViewById<View>(com.example.myapplication.R.id.buttonaa) as Button
         buttonClick.setOnClickListener{
             requireActivity().run{
-                startActivity(Intent(this, CreateAccount::class.java))
+                startActivity(Intent(this, Playground::class.java))
                 finish()
             }
         }
