@@ -18,7 +18,7 @@ class CreateAccount : AppCompatActivity() {
 
         val button2Click = findViewById<Button>(R.id.button6)
         button2Click.setOnClickListener {
-            val intent2 = Intent(this, MainActivity::class.java)
+            val intent2 = Intent(this, MainMenu::class.java)
             startActivity(intent2)
         }
     }
